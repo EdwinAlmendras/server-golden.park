@@ -1,0 +1,23 @@
+{
+  "name": "server-mega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gxldxm/mega-api": "github:EdwinAlmendras/nzapi",
+    "axios": "^0.21.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "main": "^1000.0.1",
+    "remote": "^0.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
